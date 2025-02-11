@@ -3898,3 +3898,7 @@ ValueError: Target scores need to be probabilities for multiclass roc_auc, i.e. 
 2025-02-11 14:33:05,080:INFO:save_model() successfully completed......................................
 2025-02-11 14:34:04,478:INFO:Initializing load_model()
 2025-02-11 14:34:04,479:INFO:load_model(model_name=my_best_pipeline, platform=None, authentication=None, verbose=True)
+2025-02-11 14:37:14,205:INFO:Initializing predict_model()
+2025-02-11 14:37:14,205:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000019E81A9C610>, estimator=<function load_model at 0x0000019E81455940>, probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000019EEE3C9620>)
+2025-02-11 14:37:14,206:INFO:Checking exceptions
+2025-02-11 14:37:14,206:INFO:Preloading libraries
